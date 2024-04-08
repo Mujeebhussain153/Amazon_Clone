@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+header > div{
+    background-color: #0F1111;
+    height: 60px;
+}
+.navbar{
+    background-color: #232F3E;
+    height: 39px;
+}
+.navbar ul{
+    list-style-type: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.navbar ul li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 9px;
+}
