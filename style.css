@@ -6,6 +6,7 @@
 header > div{
     background-color: #0F1111;
     height: 60px;
+    margin: 0;
 }
 .navbar{
     background-color: #232F3E;
@@ -18,9 +19,14 @@ header > div{
     text-decoration: none;
     color: white;
     font-size: 14px;
+    margin: 5px 0px 6px;
 }
 .navbar ul li{
     text-decoration: none;
     display: inline-block;
     padding: 8px 9px;
+}
+.navbar ul li:hover{
+    border: 1px solid white;
+    border-radius: 2px;
 }
