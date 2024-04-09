@@ -1,32 +1,52 @@
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
-header > div{
-    background-color: #0F1111;
-    height: 60px;
-    margin: 0;
-}
-.navbar{
-    background-color: #232F3E;
-    height: 39px;
-}
-.navbar ul{
-    list-style-type: none;
-}
-.navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    margin: 5px 0px 6px;
-}
-.navbar ul li{
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 9px;
-}
-.navbar ul li:hover{
+
+.border:hover{
     border: 1px solid white;
     border-radius: 2px;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #0F1111;
+    align-items: center;
+}
+
+.nav-logo{
+    margin: 0px 0px 0px 11px;
+    width: 113px;
+    height: 60px;
+    padding: 1px 8px 0px 6px;
+}
+
+.amzn-logo{
+    background-image: url("Images/chattogram-bangladesh-april-24-2023-260nw-2292992631.webp");
+    width: 100%;
+    background-size: cover;
+    height: 50px;
+}
+
+/*box2*/
+.address{
+    margin: 5px 2px;
+}
+.add-first{
+    color: #CCCCCC;
+    font-size: 12px;
+    margin: 3px 0px 0px 15px;
+}
+.add-second{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0px 0px 0px 3px;
+}
+.loc{
+    display: flex;
+    color: white;
+    align-items: center;
 }
